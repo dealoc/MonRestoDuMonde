@@ -17,6 +17,8 @@
 		20F258BD2073DC2900BCD7E3 /* Constante.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F258BC2073DC2900BCD7E3 /* Constante.swift */; };
 		20F258BF2073DE4800BCD7E3 /* MonNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F258BE2073DE4800BCD7E3 /* MonNav.swift */; };
 		20F258C12073E19600BCD7E3 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F258C02073E19600BCD7E3 /* MenuCell.swift */; };
+		20F258C32073E3BE00BCD7E3 /* Plat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F258C22073E3BE00BCD7E3 /* Plat.swift */; };
+		20F258C52073E3F500BCD7E3 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F258C42073E3F500BCD7E3 /* Enums.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		20F258BC2073DC2900BCD7E3 /* Constante.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constante.swift; sourceTree = "<group>"; };
 		20F258BE2073DE4800BCD7E3 /* MonNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonNav.swift; sourceTree = "<group>"; };
 		20F258C02073E19600BCD7E3 /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		20F258C22073E3BE00BCD7E3 /* Plat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plat.swift; sourceTree = "<group>"; };
+		20F258C42073E3F500BCD7E3 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,8 @@
 		20F258B22073D9F500BCD7E3 /* Modele */ = {
 			isa = PBXGroup;
 			children = (
+				20F258C22073E3BE00BCD7E3 /* Plat.swift */,
+				20F258C42073E3F500BCD7E3 /* Enums.swift */,
 			);
 			path = Modele;
 			sourceTree = "<group>";
@@ -188,6 +194,8 @@
 				20F258BF2073DE4800BCD7E3 /* MonNav.swift in Sources */,
 				20F258A12073D8CE00BCD7E3 /* AppDelegate.swift in Sources */,
 				20F258BD2073DC2900BCD7E3 /* Constante.swift in Sources */,
+				20F258C32073E3BE00BCD7E3 /* Plat.swift in Sources */,
+				20F258C52073E3F500BCD7E3 /* Enums.swift in Sources */,
 				20F258B82073DAB800BCD7E3 /* ALaCarteController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
