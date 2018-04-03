@@ -19,6 +19,8 @@
 		20F258C12073E19600BCD7E3 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F258C02073E19600BCD7E3 /* MenuCell.swift */; };
 		20F258C32073E3BE00BCD7E3 /* Plat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F258C22073E3BE00BCD7E3 /* Plat.swift */; };
 		20F258C52073E3F500BCD7E3 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F258C42073E3F500BCD7E3 /* Enums.swift */; };
+		20F258C72073E4EE00BCD7E3 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F258C62073E4EE00BCD7E3 /* Menu.swift */; };
+		20F258C92073E57D00BCD7E3 /* LesPlats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F258C82073E57D00BCD7E3 /* LesPlats.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		20F258C02073E19600BCD7E3 /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
 		20F258C22073E3BE00BCD7E3 /* Plat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plat.swift; sourceTree = "<group>"; };
 		20F258C42073E3F500BCD7E3 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		20F258C62073E4EE00BCD7E3 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		20F258C82073E57D00BCD7E3 /* LesPlats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LesPlats.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,8 @@
 			children = (
 				20F258C22073E3BE00BCD7E3 /* Plat.swift */,
 				20F258C42073E3F500BCD7E3 /* Enums.swift */,
+				20F258C62073E4EE00BCD7E3 /* Menu.swift */,
+				20F258C82073E57D00BCD7E3 /* LesPlats.swift */,
 			);
 			path = Modele;
 			sourceTree = "<group>";
@@ -192,7 +198,9 @@
 				20F258BA2073DBE300BCD7E3 /* MonTabBar.swift in Sources */,
 				20F258B62073DA6700BCD7E3 /* MenuController.swift in Sources */,
 				20F258BF2073DE4800BCD7E3 /* MonNav.swift in Sources */,
+				20F258C72073E4EE00BCD7E3 /* Menu.swift in Sources */,
 				20F258A12073D8CE00BCD7E3 /* AppDelegate.swift in Sources */,
+				20F258C92073E57D00BCD7E3 /* LesPlats.swift in Sources */,
 				20F258BD2073DC2900BCD7E3 /* Constante.swift in Sources */,
 				20F258C32073E3BE00BCD7E3 /* Plat.swift in Sources */,
 				20F258C52073E3F500BCD7E3 /* Enums.swift in Sources */,
