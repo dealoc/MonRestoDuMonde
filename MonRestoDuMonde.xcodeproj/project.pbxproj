@@ -15,6 +15,7 @@
 		20F258B82073DAB800BCD7E3 /* ALaCarteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F258B72073DAB800BCD7E3 /* ALaCarteController.swift */; };
 		20F258BA2073DBE300BCD7E3 /* MonTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F258B92073DBE300BCD7E3 /* MonTabBar.swift */; };
 		20F258BD2073DC2900BCD7E3 /* Constante.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F258BC2073DC2900BCD7E3 /* Constante.swift */; };
+		20F258BF2073DE4800BCD7E3 /* MonNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F258BE2073DE4800BCD7E3 /* MonNav.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		20F258B72073DAB800BCD7E3 /* ALaCarteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALaCarteController.swift; sourceTree = "<group>"; };
 		20F258B92073DBE300BCD7E3 /* MonTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonTabBar.swift; sourceTree = "<group>"; };
 		20F258BC2073DC2900BCD7E3 /* Constante.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constante.swift; sourceTree = "<group>"; };
+		20F258BE2073DE4800BCD7E3 /* MonNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonNav.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 				20F258B52073DA6700BCD7E3 /* MenuController.swift */,
 				20F258B72073DAB800BCD7E3 /* ALaCarteController.swift */,
 				20F258B92073DBE300BCD7E3 /* MonTabBar.swift */,
+				20F258BE2073DE4800BCD7E3 /* MonNav.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 			files = (
 				20F258BA2073DBE300BCD7E3 /* MonTabBar.swift in Sources */,
 				20F258B62073DA6700BCD7E3 /* MenuController.swift in Sources */,
+				20F258BF2073DE4800BCD7E3 /* MonNav.swift in Sources */,
 				20F258A12073D8CE00BCD7E3 /* AppDelegate.swift in Sources */,
 				20F258BD2073DC2900BCD7E3 /* Constante.swift in Sources */,
 				20F258B82073DAB800BCD7E3 /* ALaCarteController.swift in Sources */,
