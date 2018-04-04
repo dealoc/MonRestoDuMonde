@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -147,13 +148,42 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="8d9-hs-GMS">
-                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="178" id="8d9-hs-GMS" customClass="PlatCell" customModule="MonRestoDuMonde" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="375" height="178"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="8d9-hs-GMS" id="F9R-bX-If6">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="177.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="thy-Z1-30Y">
+                                            <rect key="frame" x="26" y="39" width="128" height="100"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="100" id="KYP-Hb-1hP"/>
+                                                <constraint firstAttribute="width" constant="128" id="gIM-nr-hem"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QKh-Ng-nEk">
+                                            <rect key="frame" x="162" y="39" width="197" height="100"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="100" id="HK5-Yt-akq"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="QKh-Ng-nEk" firstAttribute="trailing" secondItem="F9R-bX-If6" secondAttribute="trailingMargin" id="Tuc-6n-Jck"/>
+                                        <constraint firstItem="thy-Z1-30Y" firstAttribute="leading" secondItem="F9R-bX-If6" secondAttribute="leadingMargin" constant="10" id="hrl-DP-QWu"/>
+                                        <constraint firstItem="QKh-Ng-nEk" firstAttribute="centerY" secondItem="F9R-bX-If6" secondAttribute="centerY" id="lSN-iD-ZpV"/>
+                                        <constraint firstItem="thy-Z1-30Y" firstAttribute="centerY" secondItem="F9R-bX-If6" secondAttribute="centerY" id="sfT-Zf-voN"/>
+                                        <constraint firstItem="QKh-Ng-nEk" firstAttribute="leading" secondItem="thy-Z1-30Y" secondAttribute="trailing" constant="8" id="sqY-KP-qxV"/>
+                                    </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="descDuPlat" destination="QKh-Ng-nEk" id="2by-PM-A4h"/>
+                                    <outlet property="imageDuPlat" destination="thy-Z1-30Y" id="tEP-2R-nof"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -165,7 +195,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4YL-rE-A9D" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1401" y="197"/>
+            <point key="canvasLocation" x="1400.8" y="196.55172413793105"/>
         </scene>
         <!--A la carte-->
         <scene sceneID="mQm-6e-UIk">
