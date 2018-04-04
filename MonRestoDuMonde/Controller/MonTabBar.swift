@@ -14,8 +14,10 @@ class MonTabBar: UITabBarController {
         super.viewDidLoad()
         tabBar.barTintColor = GRIS_TRES_FONCE
         tabBar.tintColor = GRIS_TRES_CLAIR
-        
+        let currentHeight = tabBar.frame.height
+        tabBar.frame = CGRect(x: 0, y: view.frame.size.height - currentHeight, width: view.frame.size.width, height: currentHeight)
     }
+    
 
 
 }
