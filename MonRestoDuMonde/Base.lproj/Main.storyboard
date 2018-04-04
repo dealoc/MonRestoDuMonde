@@ -96,11 +96,41 @@
                     <navigationItem key="navigationItem" id="feH-Eb-CDV"/>
                     <connections>
                         <outlet property="collectionView" destination="pJd-24-2ZS" id="ESH-2C-rjZ"/>
+                        <segue destination="W8C-eN-1Zl" kind="show" identifier="VersDetail" id="g2T-rl-Y1a"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7er-Qh-Uv9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1400.8" y="-468.21589205397305"/>
+        </scene>
+        <!--Detail Controller-->
+        <scene sceneID="brH-QO-WyP">
+            <objects>
+                <viewController id="W8C-eN-1Zl" customClass="DetailController" customModule="MonRestoDuMonde" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="MYi-bL-zWQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wLf-bA-9K5">
+                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="wLf-bA-9K5" firstAttribute="top" secondItem="vOl-5z-43b" secondAttribute="top" id="3Dk-yY-Odn"/>
+                            <constraint firstItem="wLf-bA-9K5" firstAttribute="bottom" secondItem="vOl-5z-43b" secondAttribute="bottom" id="3Yz-Id-Qz6"/>
+                            <constraint firstItem="wLf-bA-9K5" firstAttribute="leading" secondItem="vOl-5z-43b" secondAttribute="leading" id="FuK-gZ-ghA"/>
+                            <constraint firstItem="wLf-bA-9K5" firstAttribute="trailing" secondItem="vOl-5z-43b" secondAttribute="trailing" id="uBX-gg-USE"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="vOl-5z-43b"/>
+                    </view>
+                    <connections>
+                        <outlet property="scroll" destination="wLf-bA-9K5" id="SX9-wZ-IfS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="M3G-m8-I1G" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2136.8000000000002" y="-468.21589205397305"/>
         </scene>
         <!--Mon Tab Bar-->
         <scene sceneID="Zxu-Vz-219">
